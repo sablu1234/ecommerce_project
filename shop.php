@@ -50,8 +50,8 @@
                                 <div class="new-item">
                                     <div class="product-card">
                                         <div class="product-card-img">
-                                            <a class="hover-switch" href="product.php">
-                                                <img class="primary-img" src="assets/img/products/bags/1.jpg" alt="">
+                                            <a class="hover-switch" href="<?php echo BASE_URL;?>product.php">
+                                                <img class="primary-img" src="<?php echo BASE_URL;?>assets/img/products/bags/1.jpg" alt="">
                                             </a>
 
                                             <div class="product-card-action product-card-action-2">
@@ -63,7 +63,7 @@
                                             </a>
                                         </div>
                                         <div class="product-card-details text-center">
-                                            <h3 class="product-card-title"><a href="product.php">black backpack</a>
+                                            <h3 class="product-card-title"><a href="<?php echo BASE_URL;?>product.php">black backpack</a>
                                             </h3>
                                             <div class="product-card-price">
                                                 <span class="card-price-regular">৳1529</span>
@@ -80,8 +80,8 @@
                                 <div class="new-item">
                                     <div class="product-card">
                                         <div class="product-card-img">
-                                            <a class="hover-switch" href="product.php">
-                                                <img class="primary-img" src="assets/img/products/bags/2.jpg" alt="">
+                                            <a class="hover-switch" href="<?php echo BASE_URL;?>product.php">
+                                                <img class="primary-img" src="<?php echo BASE_URL;?>assets/img/products/bags/2.jpg" alt="">
                                             </a>
 
                                             <div class="product-card-action product-card-action-2">
@@ -93,7 +93,7 @@
                                             </a>
                                         </div>
                                         <div class="product-card-details text-center">
-                                            <h3 class="product-card-title"><a href="product.php">lady handbag</a>
+                                            <h3 class="product-card-title"><a href="<?php echo BASE_URL;?>product.php">lady handbag</a>
                                             </h3>
                                             <div class="product-card-price">
                                                 <span class="card-price-regular">৳529</span>
@@ -111,8 +111,8 @@
                                 <div class="new-item">
                                     <div class="product-card">
                                         <div class="product-card-img">
-                                            <a class="hover-switch" href="product.php">
-                                                <img class="primary-img" src="assets/img/products/bags/3.jpg" alt="">
+                                            <a class="hover-switch" href="<?php echo BASE_URL;?>product.php">
+                                                <img class="primary-img" src="<?php echo BASE_URL;?>assets/img/products/bags/3.jpg" alt="">
                                             </a>
 
                                             <div class="product-card-action product-card-action-2">
@@ -124,7 +124,7 @@
                                             </a>
                                         </div>
                                         <div class="product-card-details text-center">
-                                            <h3 class="product-card-title"><a href="product.php">men travel bag</a>
+                                            <h3 class="product-card-title"><a href="<?php echo BASE_URL;?>product.php">men travel bag</a>
                                             </h3>
                                             <div class="product-card-price">
                                                 <span class="card-price-regular">৳529</span>
@@ -140,8 +140,8 @@
                                 <div class="new-item">
                                     <div class="product-card">
                                         <div class="product-card-img">
-                                            <a class="hover-switch" href="product.php">
-                                                <img class="primary-img" src="assets/img/products/bags/4.jpg" alt="">
+                                            <a class="hover-switch" href="<?php echo BASE_URL;?>product.php">
+                                                <img class="primary-img" src="<?php echo BASE_URL;?>assets/img/products/bags/4.jpg" alt="">
                                             </a>
 
                                             <div class="product-card-action product-card-action-2">
@@ -153,7 +153,7 @@
                                             </a>
                                         </div>
                                         <div class="product-card-details text-center">
-                                            <h3 class="product-card-title"><a href="product.php">nike legend
+                                            <h3 class="product-card-title"><a href="<?php echo BASE_URL;?>product.php">nike legend
                                                     stripe</a>
                                             </h3>
                                             <div class="product-card-price">
@@ -170,8 +170,8 @@
                                 <div class="new-item">
                                     <div class="product-card">
                                         <div class="product-card-img">
-                                            <a class="hover-switch" href="product.php">
-                                                <img class="primary-img" src="assets/img/products/bags/5.jpg" alt="">
+                                            <a class="hover-switch" href="<?php echo BASE_URL;?>product.php">
+                                                <img class="primary-img" src="<?php echo BASE_URL;?>assets/img/products/bags/5.jpg" alt="">
                                             </a>
 
                                             <div class="product-card-action product-card-action-2">
@@ -183,7 +183,7 @@
                                             </a>
                                         </div>
                                         <div class="product-card-details text-center">
-                                            <h3 class="product-card-title"><a href="product.php">nike legend
+                                            <h3 class="product-card-title"><a href="<?php echo BASE_URL;?>product.php">nike legend
                                                     stripe</a>
                                             </h3>
                                             <div class="product-card-price">
@@ -199,8 +199,8 @@
                                 <div class="new-item">
                                     <div class="product-card">
                                         <div class="product-card-img">
-                                            <a class="hover-switch" href="product.php">
-                                                <img class="primary-img" src="assets/img/products/bags/6.jpg" alt="">
+                                            <a class="hover-switch" href="<?php echo BASE_URL;?>product.php">
+                                                <img class="primary-img" src="<?php echo BASE_URL;?>assets/img/products/bags/6.jpg" alt="">
                                             </a>
 
                                             <div class="product-card-action product-card-action-2">
@@ -212,7 +212,7 @@
                                             </a>
                                         </div>
                                         <div class="product-card-details text-center">
-                                            <h3 class="product-card-title"><a href="product.php">nike legend
+                                            <h3 class="product-card-title"><a href="<?php echo BASE_URL;?>product.php">nike legend
                                                     stripe</a>
                                             </h3>
                                             <div class="product-card-price">
@@ -228,8 +228,8 @@
                                 <div class="new-item">
                                     <div class="product-card">
                                         <div class="product-card-img">
-                                            <a class="hover-switch" href="product.php">
-                                                <img class="primary-img" src="assets/img/products/bags/7.jpg" alt="">
+                                            <a class="hover-switch" href="<?php echo BASE_URL;?>product.php">
+                                                <img class="primary-img" src="<?php echo BASE_URL;?>assets/img/products/bags/7.jpg" alt="">
                                             </a>
 
                                             <div class="product-card-action product-card-action-2">
@@ -241,7 +241,7 @@
                                             </a>
                                         </div>
                                         <div class="product-card-details text-center">
-                                            <h3 class="product-card-title"><a href="product.php">women vanity
+                                            <h3 class="product-card-title"><a href="<?php echo BASE_URL;?>product.php">women vanity
                                                     bag</a>
                                             </h3>
                                             <div class="product-card-price">
@@ -257,8 +257,8 @@
                                 <div class="new-item">
                                     <div class="product-card">
                                         <div class="product-card-img">
-                                            <a class="hover-switch" href="product.php">
-                                                <img class="primary-img" src="assets/img/products/bags/8.jpg" alt="">
+                                            <a class="hover-switch" href="<?php echo BASE_URL;?>product.php">
+                                                <img class="primary-img" src="<?php echo BASE_URL;?>assets/img/products/bags/8.jpg" alt="">
                                             </a>
 
                                             <div class="product-card-action product-card-action-2">
@@ -270,7 +270,7 @@
                                             </a>
                                         </div>
                                         <div class="product-card-details text-center">
-                                            <h3 class="product-card-title"><a href="product.php">women large bag</a>
+                                            <h3 class="product-card-title"><a href="<?php echo BASE_URL;?>product.php">women large bag</a>
                                             </h3>
                                             <div class="product-card-price">
                                                 <span class="card-price-regular">৳529</span>
@@ -285,8 +285,8 @@
                                 <div class="new-item">
                                     <div class="product-card">
                                         <div class="product-card-img">
-                                            <a class="hover-switch" href="product.php">
-                                                <img class="primary-img" src="assets/img/products/bags/8.jpg" alt="">
+                                            <a class="hover-switch" href="<?php echo BASE_URL;?>product.php">
+                                                <img class="primary-img" src="<?php echo BASE_URL;?>assets/img/products/bags/8.jpg" alt="">
                                             </a>
 
                                             <div class="product-card-action product-card-action-2">
@@ -298,7 +298,7 @@
                                             </a>
                                         </div>
                                         <div class="product-card-details text-center">
-                                            <h3 class="product-card-title"><a href="product.php">women large bag</a>
+                                            <h3 class="product-card-title"><a href="<?php echo BASE_URL;?>product.php">women large bag</a>
                                             </h3>
                                             <div class="product-card-price">
                                                 <span class="card-price-regular">৳529</span>

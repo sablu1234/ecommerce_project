@@ -13,6 +13,9 @@ catch(PDOException $e){
     echo "Connection error :" . $e->getMessage();
 }
 
+
+define('BASE_URL','http://localhost/ecommerce_project/');
+define('ADMIN_URL',BASE_URL.'admin/');
 define('SMTP_HOST', 'sandbox.smtp.mailtrap.io');
 define('SMTP_PORT', '587');
 define('SMTP_USERNAME', '5c500d58392d78');

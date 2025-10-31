@@ -14,7 +14,7 @@
             <form action="" method="post" enctype="multipart/form-data">
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="images/admin.jpg" class="img-thumbnail mb_10" alt="">
+                        <img src="<?php echo ADMIN_URL;?>images/admin.jpg" class="img-thumbnail mb_10" alt="">
                         <input type="file" name="photo" class="form-control">
                     </div>
                     <div class="col-md-9">

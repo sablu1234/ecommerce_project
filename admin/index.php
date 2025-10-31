@@ -1,6 +1,13 @@
 <?php include 'header.php'; ?>
 <?php include 'top.php'; ?>
 
+<?php
+// if(!isset($_SESSION['admin'])){
+//     header("location: ".ADMIN_URL."login.php");
+//     exit;
+// }
+?>
+
 
 <div class="right-part container-fluid">
     <div class="row">
