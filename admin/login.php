@@ -49,7 +49,7 @@ if(isset($_POST['form_login'])){
         <main class="form-signin w-100 m-auto">
             <h1 class="text-center">Admin Login</h1> 
 
-            <form action="index.php" method="post">
+            <form action="<?php echo ADMIN_URL;?>login.php" method="post">
                 <div class="form-floating">
                     <input type="text" name="email" class="form-control" placeholder="name@example.com" autocomplete="off">
                     <label for="">Email address</label>

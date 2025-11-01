@@ -31,8 +31,9 @@ if(isset($_POST['form_contact'])){
              throw new Exception('Please enter your message.');
         }
 
-    
-        
+        $statement = $pdo->prepare("SELECT * FROM admins WHERE id=?");
+        $statement->execute([1]);
+        $result = $statement->fetch(PDO::FETCH_ASSOC);
 
         $mail = new PHPMailer(true);
 
@@ -45,7 +46,7 @@ if(isset($_POST['form_contact'])){
         $mail->SMTPSecure = SMTP_ENCRYPTION;
 
         $mail->setFrom(SMTP_FROM);
-        $mail->addAddress('mdsablu0000000@gmail.com');
+        $mail->addAddress($result['email']);
         $mail->addReplyTo(SMTP_FROM);
 
         $mail_message = '<h2>Visitor Informaiton</h2>';

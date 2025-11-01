@@ -56,49 +56,49 @@
             options: {
                 responsive: true,
                 scales: {
-                    y: {
-                        beginAtZero: true,
+                    yAxes: [{
                         ticks: {
+                            beginAtZero: true,
                             callback: function (value, index, values) {
                                 return '$' + value;
                             }
                         }
-                    }
+                    }]
                 },
-                plugins: {
-                    legend: {
-                        display: false
-                    }
+                legend: {
+                    display: false
                 }
             }
         });
     </script>
     <?php endif; ?>
 
-
-
-     <?php
+        <?php
             if(isset($error_message)){
                 ?>
-                <script>
-                    Swal.fire({
-                    title: 'Error!',
-                    text: '<?php echo $error_message; ?>',
-                    icon: 'error',
-                })
-                </script>
+                 <script>
+                    const Toast = Swal.mixin({
+                        toast: true,
+                        position: "top-end",
+                        showConfirmButton: false,
+                        timer: 3000,
+                        timerProgressBar: true,
+                        didOpen: (toast) => {
+                            toast.onmouseenter = Swal.stopTimer;
+                            toast.onmouseleave = Swal.resumeTimer;
+                        }
+                    });
+                    Toast.fire({
+                        icon: "error",
+                        title: "<?php echo $error_message?>"
+                    });
+                </script> 
                 <?php
             }
+
             if(isset($_SESSION["success_message"])){
                 ?>
-                <script>
-                    Swal.fire({
-                    title: 'Success!',
-                    text: '<?php echo $_SESSION["success_message"]; ?>',
-                    icon: 'success',
-                })
-                </script>
-                <!-- <script>
+                 <script>
                     const Toast = Swal.mixin({
                         toast: true,
                         position: "top-end",
@@ -112,9 +112,9 @@
                     });
                     Toast.fire({
                         icon: "success",
-                        title: "Your Success Message here"
+                        title: "<?php echo $_SESSION["success_message"]?>"
                     });
-                </script> -->
+                </script> 
                 <?php
                 unset($_SESSION["success_message"]);
             }
