@@ -170,7 +170,8 @@ h2.page-heading {
 .form-select:focus {
     box-shadow: none;
 }
-.form-control {
+.form-control,
+.form-select {
     border-color: #c5c5c5;
     font-size: 14px!important;
 }

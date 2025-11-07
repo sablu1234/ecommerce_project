@@ -9,7 +9,16 @@
                 </a>
             </li>
 
-            <li class="nav-item dd-item">
+            <?php if($_SESSION['admin']['role'] == 'Super Admin' || $_SESSION['admin']['role']=='Admin') : ?>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo ADMIN_URL;?>admin-users.php">
+                    <span data-feather="file-text" class="align-text-bottom"></span>
+                    Admin Users
+                </a>
+            </li>
+            <?php endif;?>
+
+            <!-- <li class="nav-item dd-item">
                 <a class="nav-link dd-link collapsed" data-bs-toggle="collapse" data-delay="0"
                     href="#collapseSetting" role="button" aria-expanded="false"
                     aria-controls="collapseSetting">
@@ -24,8 +33,8 @@
                         Payment Settings
                     </a>
                 </div>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="form.php">
                     <span data-feather="file-text" class="align-text-bottom"></span>
                     Form
@@ -48,7 +57,7 @@
                     <span data-feather="file-text" class="align-text-bottom"></span>
                     Data Table
                 </a>
-            </li>
+            </li> -->
         </ul>
     </div>
 </nav>

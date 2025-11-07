@@ -7,7 +7,7 @@
     </button>
     <div class="navbar-nav flex-row">
         <div class="nav-item text-nowrap">
-            <a class="nav-link px-3" href="javascript:void;">Logged in as <?php echo $_SESSION['admin']['name'];?></a>
+            <a class="nav-link px-3" href="javascript:void;">Logged in as <?php echo $_SESSION['admin']['name'];?>(<?php echo $_SESSION['admin']['role'];?>)</a>
         </div>
         <div class="nav-item text-nowrap">
             <a class="nav-link px-3" href="<?php echo ADMIN_URL;?>profile.php"><i class="fas fa-user"></i> Edit Profile</a>
