@@ -16,5 +16,9 @@
     feather.replace({
         'aria-hidden': 'true'
     });
+
+    $(document).ready(function(){
+        $('input, textarea, select').attr('autocomplete', 'off');
+    })
     
 })(jQuery);

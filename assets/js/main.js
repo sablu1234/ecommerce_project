@@ -174,6 +174,10 @@
     setTimeout (function () {
       $ ('#modal-subscribe').modal ("show")
     }, 3000);
+  });
+
+  $(document).ready(function () {
+        $('input, textarea, select').attr('autocomplete', 'off');
   })
 
 })(jQuery);

@@ -39,7 +39,6 @@ if(isset($_POST['form1'])){
         $email_message .= '</a>';
 
         $mail = new PHPMailer(true);
-
         $mail->isSMTP();
         $mail->Host = SMTP_HOST;
         $mail->SMTPAuth = true;
