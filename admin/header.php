@@ -2,6 +2,7 @@
 ob_start();
 session_start();
 include "../config/config.php";
+include "../config/functions.php";
 $cur_page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
