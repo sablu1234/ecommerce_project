@@ -54,6 +54,13 @@ if(isset($_POST['form1'])){
             throw new Exception('Please enter a valid email.');
         }
 
+        $statement = $pdo->prepare("SELECT * FROM admins WHERE email=? AND id!=?");
+        $statement->execute([$email,$_REQUEST['id']]);
+        $total = $statement->rowCount();
+        if($total){
+            throw new Exception('Email already exits.');
+        }
+
         $statement = $pdo->prepare("SELECT * FROM admins WHERE id=?");
         $statement->execute([$_REQUEST['id']]);
         $existing_data = $statement->fetch(PDO::FETCH_ASSOC);

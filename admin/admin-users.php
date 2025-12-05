@@ -43,8 +43,17 @@ if($_SESSION['admin']['role'] == 'Moderator'){
                         foreach($result as $row){
                            
 
-                            if($row['role'] == 'Super Admin' || $row['role']== 'Admin'){
+                            if($row['role'] == 'Super Admin'){
                                 continue;
+                            }
+                            if($_SESSION['admin']['role'] == 'Moderator'){
+                                continue;
+                            }
+
+                            if($_SESSION['admin']['role'] == 'Admin'){
+                                if($row['role'] == 'Admin'){
+                                     continue;
+                                }
                             }
                              $i++;
                             ?>
